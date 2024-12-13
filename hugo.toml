@@ -1,0 +1,39 @@
+baseurl = "/"
+languageCode = 'de-DE'
+theme = "JuiceBar"
+title = "Black131rd's Blog"
+
+[params]
+author = "Black131rd"
+description = "Personal Blog"
+authorImage = "/images/avatar.jpg"
+paginate = 5 
+
+Title = "Black131rd"
+content = "I'm Black131rd. Nice to meet you! :)"
+imageUrl = "/images/avatar.jpg"
+heroimage = "/images/author.jpg"
+# To add a new social icon 
+# More social icons can be found in JuiceBar\layouts\partials\svg.html.
+[[params.social]]
+name = "github"
+url = "https://github.com/Black131rd"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# To add a new navigation link
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Blog"
+url = "/post"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
