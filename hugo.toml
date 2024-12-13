@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "chrispoehlmann.com/blog"
 languageCode = 'de-DE'
 theme = "JuiceBar"
 title = "Black131rd's Blog"
