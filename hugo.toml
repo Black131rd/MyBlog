@@ -1,4 +1,4 @@
-baseurl = "chrispoehlmann.com/blog"
+baseurl = "chrispoehlmann.com"
 languageCode = 'de-DE'
 theme = "JuiceBar"
 title = "Black131rd's Blog"
@@ -6,14 +6,14 @@ title = "Black131rd's Blog"
 [params]
 author = "Black131rd"
 description = "Personal Blog"
-authorImage = "/images/avatar.jpg"
+authorImage = "/images/avatar.png"
 paginate = 5 
 
 Title = "Black131rd"
 content = "I'm Black131rd. Nice to meet you! :)"
-imageUrl = "/images/avatar.jpg"
-heroimage = "/images/author.jpg"
-# To add a new social icon 
+imageUrl = "/images/avatar.png"
+heroimage = "/images/author.png"
+# To add a new social icon
 # More social icons can be found in JuiceBar\layouts\partials\svg.html.
 [[params.social]]
 name = "github"
